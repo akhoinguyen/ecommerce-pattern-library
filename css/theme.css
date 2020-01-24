@@ -1,0 +1,10 @@
+:root {
+  --color-primary: #4e179e;
+  --color-primary-light: #a333e6;
+  --color-secondary: #90ef32;
+  --color-accent: #e2ff87;
+  --color-neutral-beige: #ececec;
+
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Playfair Display", serif;
+}
