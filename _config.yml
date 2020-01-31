@@ -2,4 +2,17 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  font_url: "https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap"
+  title: "ArtTrade"
+  description: "A simple and secure way for digital and traditional artists to sell their art."
+  font_url: "https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,900|Playfair+Display:400,400i,600,700,900&display=swap"
+  rationales:
+    typefaces.primary: |
+      Montserrat was selected because of its clean, modern look. It is the basic sans serif used for body copy.
+    typefaces.secondary: |
+      Playfair Display is favoured for its modernity within the serif fonts. It is mostly used for headings and decoration text.
+    colors.primary: |
+      A light pastel-y and a dark half-saturated blue is chosen as the main colour to not distract viewers from the main focus: the art.
+    colors.accent: |
+      Three accent colours are chosen to be also pastel-y to complement primary colour.
+    colors.neutral: |
+      A neutral grey is present and is mainly used for background-color of containers, alongside with white.

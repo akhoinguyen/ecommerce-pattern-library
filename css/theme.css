@@ -5,6 +5,7 @@
   --color-accent-pink: #fdb7be;
   --color-accent-orange: #ffc0ac;
   --color-neutral-grey: #ececec;
+  --color-neutral-white: #fff;
 
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Playfair Display", serif;
@@ -13,6 +14,10 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-secondary);
   color: var(--color-primary-dark);
+}
+
+p {
+  font-family: var(--font-primary);
 }
 
 a {
