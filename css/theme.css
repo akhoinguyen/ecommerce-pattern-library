@@ -1,9 +1,9 @@
 :root {
   --color-primary: #a9d1da;
   --color-secondary: #1f4179;
-  --color-accent-1: #c7efe5;
-  --color-accent-2: #fdb7be;
-  --color-accent-3: #ffc0ac;
+  --color-accent-green: #c7efe5;
+  --color-accent-pink: #fdb7be;
+  --color-accent-orange: #ffc0ac;
   --color-neutral-grey: #ececec;
 
   --font-primary: "Montserrat", sans-serif;
