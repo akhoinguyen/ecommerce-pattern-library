@@ -1,6 +1,6 @@
 :root {
   --color-primary: #a9d1da;
-  --color-secondary: #1f4179;
+  --color-primary-dark: #1f4179;
   --color-accent-green: #c7efe5;
   --color-accent-pink: #fdb7be;
   --color-accent-orange: #ffc0ac;
@@ -8,4 +8,17 @@
 
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Playfair Display", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-dark);
+}
+
+a {
+  text-decoration: none;
+}
+
+mark {
+  background-color: var(--color-accent-green);
 }
