@@ -1,4 +1,10 @@
-ul {
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 10px 20px rgba(72, 104, 158, .25);
+}
+
+ul, h3 {
   font-family: var(--font-primary);
 }
 
@@ -9,5 +15,5 @@ ul {
 
 
 .product-card-hover:hover .product-card-more-info {
-  opacity: .5;
+  opacity: .75;
 }

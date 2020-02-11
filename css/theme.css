@@ -35,8 +35,18 @@ mark {
   background-color: var(--color-neutral-white);
 }
 
-/* @utility apply a white background with 50% opacity (can be overwritten by css) */
+/* @utility apply a white background with 50% opacity (opacity can be overwritten by css) */
 .white-bg-50opacity {
   background-color: var(--color-neutral-white);
   opacity: 50%;
+}
+
+/* @utility font-weight: 600 */
+.fw-600 {
+  font-weight: 600;
+}
+
+/* @utility font-weight: 700 (bold) */
+.fw-700 {
+  font-weight: 700;
 }
