@@ -1,0 +1,13 @@
+ul {
+  font-family: var(--font-primary);
+}
+
+.product-card-more-info {
+  opacity: 0;
+  transition: opacity .25s linear;
+}
+
+
+.product-card-hover:hover .product-card-more-info {
+  opacity: .5;
+}

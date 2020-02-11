@@ -1,11 +1,12 @@
 :root {
-  --color-primary: #b0dae9;
-  --color-primary-dark: #1f4179;
-  --color-secondary: #c7efe5;
+  --color-primary: #d2eef9;
+  --color-primary-dark: #48689e;
+  --color-secondary: #beede4;
   --color-accent-pink: #fdb7be;
   --color-accent-orange: #ffc0ac;
   --color-neutral-grey: #ececec;
   --color-neutral-white: #fff;
+  --color-neutral-black: #000;
 
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Playfair Display", serif;
@@ -22,8 +23,20 @@ p {
 
 a {
   text-decoration: none;
+  color: var(--color-neutral-black);
 }
 
 mark {
-  background-color: var(--color-accent-green);
+  background-color: var(--color-secondary);
+}
+
+/* @utility apply a white background */
+.white-bg {
+  background-color: var(--color-neutral-white);
+}
+
+/* @utility apply a white background with 50% opacity (can be overwritten by css) */
+.white-bg-50opacity {
+  background-color: var(--color-neutral-white);
+  opacity: 50%;
 }
