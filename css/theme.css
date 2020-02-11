@@ -1,9 +1,9 @@
 :root {
-  --color-primary: #d2eef9;
-  --color-primary-dark: #48689e;
+  --color-primary: #dff2fa;
+  --color-primary-dark: #52658b;
   --color-secondary: #beede4;
-  --color-accent-pink: #fdb7be;
-  --color-accent-orange: #ffc0ac;
+  --color-accent-pink: #fdc1c7;
+  --color-accent-orange: #fdcfc0;
   --color-neutral-grey: #ececec;
   --color-neutral-white: #fff;
   --color-neutral-black: #000;
@@ -30,13 +30,23 @@ mark {
   background-color: var(--color-secondary);
 }
 
+/* @utility width: 75% (custom based on modulifier) */
+.w-3-4 {
+  width: 75%;
+}
+
+/* @utility 50% opacity (mainly for text) */
+.opa-50 {
+  opacity: .5;
+}
+
 /* @utility apply a white background */
 .white-bg {
   background-color: var(--color-neutral-white);
 }
 
 /* @utility apply a white background with 50% opacity (opacity can be overwritten by css) */
-.white-bg-50opacity {
+.white-bg-50opa {
   background-color: var(--color-neutral-white);
   opacity: 50%;
 }
