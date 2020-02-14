@@ -835,7 +835,7 @@ select {
   display: block;
   width: 100%;
 
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Cpath fill='none' stroke='%23000' stroke-miterlimit='10' stroke-width='70' d='M36.3 82.1l91.9 91.8 91.5-91.8'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Cpath fill='none' stroke='%23000' stroke-miterlimit='10' stroke-width='25' d='M36.3 82.1l91.9 91.8 91.5-91.8'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: calc(100% - .4em) center;
   background-size: 18px auto;

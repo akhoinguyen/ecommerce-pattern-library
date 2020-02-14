@@ -1,0 +1,25 @@
+title: "Form"
+description: |
+  idkwhattoputhereyet
+
+patterns:
+  text-reg:
+    title: "Regular text field"
+    description: |
+      Simple, single line text input.
+    background: --color-primary
+    width: 50%;
+
+  text-area:
+    title: "Text area"
+    description: |
+      Multi-line text input.
+    background: --color-primary
+    width: 50%;
+
+  select:
+    title: "Drop-down select"
+    description: |
+      Drop-down select.
+    background: --color-primary
+    width: 50%;

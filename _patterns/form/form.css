@@ -1,0 +1,16 @@
+label {
+  font-family: var(--font-primary);
+  color: var(--color-primary-dark);
+}
+
+input, textarea, select {
+  font-family: var(--font-primary);
+  border-width: 0;
+  border-radius: 5px;
+  box-shadow: 2.5px 2.5px 5px rgba(72, 104, 158, .25);
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: var(--color-primary-dark);
+  outline: none;
+}

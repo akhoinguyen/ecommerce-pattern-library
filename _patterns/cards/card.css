@@ -13,7 +13,18 @@ ul, h3 {
   transition: opacity .25s linear;
 }
 
+/* info-card */
 
 .product-card-hover:hover .product-card-more-info {
   opacity: .75;
+}
+
+.img-h-flex {
+  display: block;
+  height: 100%;
+}
+
+.info-card-bg {
+  padding-top: 60%;
+  background: url("/images/info-card-bg.svg") center center / cover no-repeat;
 }
