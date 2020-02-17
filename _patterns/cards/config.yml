@@ -1,3 +1,9 @@
 title: "Cards"
 description: |
   Different cards used throughout the website.
+
+patterns:
+  bunch-o-cards:
+    title: "Cards preview"
+    description: |
+      Just a bunch-o-cards..

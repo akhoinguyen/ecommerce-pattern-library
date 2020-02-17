@@ -13,11 +13,11 @@ ul, h3 {
   transition: opacity .25s linear;
 }
 
-/* info-card */
-
 .product-card-hover:hover .product-card-more-info {
   opacity: .75;
 }
+
+/* info-card */
 
 .img-h-flex {
   display: block;
