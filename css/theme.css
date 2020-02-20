@@ -1,10 +1,10 @@
 :root {
-  --color-primary: #dff2fa;
-  --color-primary-dark: #52658b;
+  --color-primary: #e3f6ff;
+  --color-primary-dark: #446299;
   --color-secondary: #beede4;
-  --color-accent-pink: #fdc1c7;
-  --color-accent-orange: #fdcfc0;
-  --color-neutral-grey: #ececec;
+  --color-accent-pink: #ffbbc6;
+  --color-accent-orange: #ffcdbd;
+  --color-neutral-grey: #f1f1f1;
   --color-neutral-white: #fff;
   --color-neutral-black: #000;
 

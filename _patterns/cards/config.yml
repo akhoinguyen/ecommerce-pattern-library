@@ -6,4 +6,14 @@ patterns:
   bunch-o-cards:
     title: "Cards preview"
     description: |
-      Just a bunch-o-cards..
+      Just a bunch-o-cards (for preview).
+
+  product-card:
+    title: "Product card"
+    description: |
+      Example of a product card which appears in product listing pages. The image, the seller info and the bottom button are clickable.
+
+  info-card:
+    title: "Info card"
+    description: |
+      Info cards are used to draw customers' attention to short, concise information, for example sales or upcoming big changes.
