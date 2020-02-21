@@ -2,3 +2,25 @@
   border-radius: 50%;
   max-width: 48px;
 }
+
+/* favourite (the heart icon) */
+
+.circle-bg {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  transition: background-color .125s linear;
+}
+
+.circle-bg:hover {
+  background-color: var(--color-neutral-grey);
+}
+
+svg#heart-filled {
+  opacity: 0;
+  transition: opacity .125s linear;
+}
+
+.circle-bg:hover svg#heart-filled {
+  opacity: 1;
+}

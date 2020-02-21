@@ -1,3 +1,14 @@
 title: "Banners"
 description: |
-  These are the banners that appear at the top of the pages. They are either animated with transitions or static. Although animated banners are fun and all, static ones are favoured for accessibility reasons.
+  These are the banners that appear at the top of the pages. They are either animated with fade effects or static. Although animated banners are fun and all, static ones are favoured for accessibility reasons.
+
+patterns:
+  banner-home:
+    title: "Home Banner"
+    description: |
+      Main static banner used on homepage, consists of a heading, some body copy and a link.
+
+  banner-home-animated:
+    title: "(animated) Home Banner"
+    description: |
+      Look-wise it is identical to the static banner above, the difference is this one has a fade-in transition effect, which is a concern when it comes to accessibility. Thus this banner should <strong>only</strong> be used when there is a fallback static banner in place.

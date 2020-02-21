@@ -4,7 +4,7 @@
   --color-secondary: #beede4;
   --color-accent-pink: #ffbbc6;
   --color-accent-orange: #ffcdbd;
-  --color-neutral-grey: #f1f1f1;
+  --color-neutral-grey: #ececec;
   --color-neutral-white: #fff;
   --color-neutral-black: #000;
 
@@ -59,4 +59,12 @@ mark {
 /* @utility font-weight: 700 (bold) */
 .fw-700 {
   font-weight: 700;
+}
+
+/* @utility new wider (75em) wrapper class based on modulifier */
+.wrapper-70 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70em;
+  width: 100%;
 }

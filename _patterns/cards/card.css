@@ -1,12 +1,18 @@
 .card {
-  border-radius: 10px;
+  background-color: var(--color-neutral-white);
   overflow: hidden;
-  box-shadow: 10px 10px 20px rgba(72, 104, 158, .25);
+}
+
+.card-shadow {
+  box-shadow: 5px 5px 12px rgba(72, 104, 158, .25);
 }
 
 ul, h3 {
   font-family: var(--font-primary);
+  color: var(--color-neutral-black);
 }
+
+/* product-card */
 
 .product-card-more-info {
   opacity: 0;
@@ -27,4 +33,15 @@ ul, h3 {
 .info-card-bg {
   padding-top: 60%;
   background: url("/images/info-card-bg.svg") center center / cover no-repeat;
+}
+
+/* img-card */
+
+.img-card-favourite {
+  opacity: 0;
+  transition: opacity .25s linear;
+}
+
+.img-card-hover:hover .img-card-favourite {
+  opacity: 1;
 }
