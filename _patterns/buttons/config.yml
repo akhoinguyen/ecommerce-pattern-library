@@ -6,7 +6,7 @@ patterns:
   basic:
     title: "Basic"
     description: |
-      The strongest, most attention-grabbing one, used for the most important action on the page. Should have only one per page. Should only be used in front of white backgrorund.
+      The strongest, most attention-grabbing one, used for the most important action on the page. Should have only <strong>one</strong> per page. Should only be used in front of white backgrorund.
     width: 10em;
 
   ghost:

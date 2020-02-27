@@ -16,4 +16,9 @@ patterns:
   info-card:
     title: "Info card"
     description: |
-      Info cards are used to draw customers' attention to short, concise information, for example sales or upcoming big changes.
+      Info cards are used to draw customers' attention to short, concise information, for example sales or upcoming big changes. It consists of an image, descriptive text and a call-to-action button.
+
+  img-card:
+    title: "Image card"
+    description: |
+      Image card consists of a clickable image and text, and is used to showcase artworks on main page. The text below the image describes artwork title and artist. Hovering on the image brings up a heart icon to quickly add the item to <i>Favourites</i>.

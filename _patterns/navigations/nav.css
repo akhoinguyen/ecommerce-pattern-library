@@ -1,0 +1,45 @@
+ul {
+  justify-content: space-around;
+}
+
+#toggle-nav-close {
+  opacity: 0;
+}
+
+#toggle-nav-open,
+#toggle-nav-close {
+  transition: opacity .125s linear;
+}
+
+.nav-btn-active #toggle-nav-close {
+  opacity: 1;
+}
+
+.nav-btn-active #toggle-nav-open {
+  opacity: 0;
+}
+
+.nav-links {
+  opacity: 0;
+  transition: opacity .125s linear;
+}
+
+.nav-visible {
+  opacity: 1;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .nav-links {
+    opacity: 1;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+  }
+
+}

@@ -1,6 +1,7 @@
 label {
   font-family: var(--font-primary);
   color: var(--color-primary-dark);
+  padding-bottom: .5em;
 }
 
 input, textarea, select {
