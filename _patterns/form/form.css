@@ -1,13 +1,13 @@
 label {
   font-family: var(--font-primary);
-  color: var(--color-primary-dark);
-  padding-bottom: .5em;
+  color: var(--color-neutral-black);
+  padding-bottom: .25em;
 }
 
 input, textarea, select {
   font-family: var(--font-primary);
+  min-height: 2.5em;
   border-width: 0;
-  border-radius: 5px;
   box-shadow: 2.5px 2.5px 5px rgba(72, 104, 158, .25);
 }
 

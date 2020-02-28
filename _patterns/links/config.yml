@@ -1,3 +1,19 @@
 title: "Links"
 description: |
-  Some of these links are media objects that behaves almost like a button, except they don't have hover states and are only included on specific objects, for example certain cards.
+  Some of these links behaves almost like a button, except they have very minor use and are only included on specific objects, for example certain cards.
+
+patterns:
+  favourite:
+    title: "Favourites"
+    description: |
+      Used on product thumbnail cards, to quickly add the product to <em>Favourites</em>.
+
+  seller:
+    title: "Seller"
+    description: |
+      Used specifically on product details card.
+
+  artist:
+    title: "Artist"
+    description: |
+      Used wherever the artist's name is needed. Acts same as <em>Seller</em> without thumbnail and rating.

@@ -1,4 +1,6 @@
-ul {
+/* main nav */
+
+.nav-list {
   justify-content: space-around;
 }
 
@@ -38,8 +40,22 @@ ul {
     display: none;
   }
 
-  ul {
+  .nav-list {
     display: flex;
   }
 
+}
+
+/* page numbers */
+
+.page-number-hover {
+  transition: background-color .125s linear;
+}
+
+.page-number-hover:hover {
+  background-color: var(--color-primary);
+}
+
+.page-number-selected {
+  background-color: var(--color-secondary);
 }

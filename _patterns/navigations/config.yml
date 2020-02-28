@@ -1,0 +1,14 @@
+title: "Navigations"
+description: |
+  Different navigations used consistently throughout the site.
+
+patterns:
+  main-nav:
+    title: "Main navigation"
+    description: |
+      Main navigation with all page links that will be included in the header. Toggle navigation on small and medium screens, fully visible on large screen.
+
+  page-number:
+    title: "Pagination"
+    description: |
+      Pagination used at the bottom of product listing pages.

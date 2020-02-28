@@ -4,7 +4,7 @@
   background-color: var(--color-primary-dark);
   border-color: var(--color-primary-dark);
   color: var(--color-neutral-white);
-  border-radius: 10px;
+  border-radius: 5px;
   transition: background-color .125s linear, border-color .125s linear;
 }
 
