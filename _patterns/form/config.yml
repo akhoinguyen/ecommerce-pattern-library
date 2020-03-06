@@ -1,25 +1,38 @@
 title: "Form"
 description: |
-  idkwhattoputhereyet
+  Different form fields used on check-out page.
 
 patterns:
-  text-reg:
-    title: "Regular text field"
+  name:
+    title: "Name"
     description: |
-      Simple, single line text input.
+      First and last name.
     background: --color-primary
-    width: 50%;
+    width: 45em;
 
-  text-area:
-    title: "Text area"
+  contact:
+    title: "Contact information"
     description: |
-      Multi-line text input.
+      Contact info input including email, phone number and address.
     background: --color-primary
-    width: 50%;
+    width: 45em;
 
   select:
     title: "Drop-down select"
     description: |
       Drop-down select.
     background: --color-primary
-    width: 50%;
+    width: 45em;
+
+  shipping:
+    title: "Shipping"
+    description: |
+      Radio list for choosing shipping options.
+    width: 70em;
+
+  text-area:
+    title: "Text area"
+    description: |
+      Multi-line text input (idk what to use this for yet).
+    background: --color-primary
+    width: 45em;
