@@ -24,3 +24,14 @@ svg#heart-filled {
 .circle-bg:hover svg#heart-filled {
   opacity: 1;
 }
+
+/* search bar */
+
+input#search {
+  box-shadow: none;
+  border: 1px solid var(--color-neutral-black);
+}
+
+.search-icon {
+right:.5em;
+}

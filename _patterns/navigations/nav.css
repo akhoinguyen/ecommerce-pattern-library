@@ -22,18 +22,21 @@
 }
 
 .nav-links {
-  opacity: 0;
-  transition: opacity .125s linear;
+  position: absolute;
+  top: 6rem;
+  left: -120vw;
+  transition: left .25s ease-out;
+  width: 100%;
 }
 
-.nav-visible {
-  opacity: 1;
+.nav-visible.nav-links {
+  left: 0;
 }
 
 @media only screen and (min-width: 38em) {
 
   .nav-links {
-    opacity: 1;
+    position: static;
   }
 
   .nav-btn {
