@@ -59,6 +59,20 @@
   background-color: var(--color-primary);
 }
 
-.page-number-selected {
+.page-number-current {
+  background-color: var(--color-secondary);
+}
+
+/* breadcrumb */
+
+.breadcrumb-link {
+  transition: background-color .125s linear;
+}
+
+.breadcrumb-link:hover {
+  background-color: var(--color-primary);
+}
+
+.breadcrumb-current {
   background-color: var(--color-secondary);
 }
