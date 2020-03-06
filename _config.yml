@@ -3,7 +3,7 @@ theme: jekyll_patternbot
 
 patternbot:
   title: "inAn"
-  description: "A simple way for traditional and digital artists to sell their art in printed form."
+  description: "inAn lets artists sell a huge variety of print-on-demand products of their art."
   font_url: "https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,900|Playfair+Display:400,400i,600,700,900&display=swap"
   colors:
     sidebar: --color-primary

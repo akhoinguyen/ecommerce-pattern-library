@@ -8,7 +8,7 @@ patterns:
     description: |
       Main navigation with all page links that will be included in the header. Toggle navigation on small and medium screens, fully visible on large screen.
 
-  page-number:
-    title: "Pagination"
+  page-nav:
+    title: "Page navigation"
     description: |
       Pagination used at the bottom of product listing pages.

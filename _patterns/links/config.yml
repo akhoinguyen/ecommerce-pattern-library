@@ -1,6 +1,6 @@
 title: "Links"
 description: |
-  Some of these links behaves almost like a button, except they have very minor use and are only included on specific objects, for example certain cards.
+  I call them <em>Links</em> but they are actually a variety of elements, such as search field and icon buttons. These elements are insignificant and only appear on several specific patterns, for example on certain types of cards.
 
 patterns:
   favourite:
@@ -17,3 +17,8 @@ patterns:
     title: "Artist"
     description: |
       Used wherever the artist's name is needed. Acts same as <em>Seller</em> without thumbnail and rating.
+
+  searchbar:
+    title: "Search bar"
+    description: |
+      Used on header.
