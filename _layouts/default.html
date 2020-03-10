@@ -4,10 +4,15 @@
   <meta charset="utf-8">
   <title>{{page.title}}</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-</head>
-<body>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,900|Playfair+Display:400,400i,600,700,900&display=swap">
 
-{{content}}
+</head>
+<body class="">
+
+  {% pattern header/main-header %}
+  <div class="wrapper-75 gutter">{{content}}</div>
+  {% pattern footer/footer %}
 
 </body>
 </html>

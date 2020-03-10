@@ -1,3 +1,7 @@
+nav {
+  z-index: 1000;
+}
+
 /* main nav */
 
 .nav-list {
@@ -10,7 +14,7 @@
 
 #toggle-nav-open,
 #toggle-nav-close {
-  transition: opacity .125s linear;
+  transition: opacity .125s ease-out;
 }
 
 .nav-btn-active #toggle-nav-close {
