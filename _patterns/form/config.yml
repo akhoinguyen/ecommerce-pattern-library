@@ -8,21 +8,14 @@ patterns:
     description: |
       Appears at the very top of checkout form.
     background: --color-primary
-    width: 45em;
+    width: 50em;
 
   contact:
     title: "Contact information"
     description: |
       Contact info including email, phone number and address.
     background: --color-primary
-    width: 45em;
-
-  select:
-    title: "Drop-down select"
-    description: |
-      Drop-down select.
-    background: --color-primary
-    width: 45em;
+    width: 50em;
 
   shipping:
     title: "Shipping"
@@ -30,16 +23,23 @@ patterns:
       Radio list for choosing shipping options.
     width: 75em;
 
-  text-area:
-    title: "Text area"
-    description: |
-      Multi-line text input (idk what to use this for yet).
-    background: --color-primary
-    width: 45em;
-
   payment:
     title: "Payment"
     description: |
       lul.
     background: --color-primary
-    width: 45em;
+    width: 50em;
+
+  text-area:
+    title: "Text area"
+    description: |
+      Multi-line text input (idk what to use this for yet).
+    background: --color-primary
+    width: 50em;
+
+  select:
+    title: "Drop-down select"
+    description: |
+      Drop-down select.
+    background: --color-primary
+    width: 50em;
