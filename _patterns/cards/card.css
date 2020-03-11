@@ -37,6 +37,8 @@ ul {
 
 /* img-card */
 
+@media only screen and (min-width: 38em) {
+
 .img-card-favourite {
   opacity: 0;
   transition: opacity .25s linear;
@@ -44,4 +46,6 @@ ul {
 
 .img-card-hover:hover .img-card-favourite {
   opacity: 1;
+}
+
 }

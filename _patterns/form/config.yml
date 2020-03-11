@@ -1,19 +1,19 @@
 title: "Form"
 description: |
-  Different form fields used on check-out page.
+  Different form fields used on checkout page.
 
 patterns:
-  name:
-    title: "Name"
+  personal:
+    title: "Personal information"
     description: |
-      First and last name.
+      Appears at the very top of checkout form.
     background: --color-primary
     width: 45em;
 
   contact:
     title: "Contact information"
     description: |
-      Contact info input including email, phone number and address.
+      Contact info including email, phone number and address.
     background: --color-primary
     width: 45em;
 
@@ -28,11 +28,18 @@ patterns:
     title: "Shipping"
     description: |
       Radio list for choosing shipping options.
-    width: 70em;
+    width: 75em;
 
   text-area:
     title: "Text area"
     description: |
       Multi-line text input (idk what to use this for yet).
+    background: --color-primary
+    width: 45em;
+
+  payment:
+    title: "Payment"
+    description: |
+      lul.
     background: --color-primary
     width: 45em;

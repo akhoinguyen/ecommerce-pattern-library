@@ -1,3 +1,5 @@
+/* form patterns are styled by html elements, not by specific files like other patterns */
+
 label {
   font-family: var(--font-primary);
   color: var(--color-neutral-black);
@@ -9,12 +11,19 @@ input, textarea, select {
   min-height: 2.5em;
   border-width: 0;
   box-shadow: 2.5px 2.5px 5px rgba(72, 104, 158, .25);
+  padding-left: 1em;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="monthd"] {
+  padding-left: 1em;
 }
 
 input:focus, textarea:focus, select:focus {
   border-color: var(--color-primary-dark);
   outline: none;
 }
+
+/* radio */
 
 input[type="radio"] + label::before {
 width: 1.5em;
@@ -26,18 +35,26 @@ input[type="radio"]:checked +label::before {
   background-color: var(--color-secondary);
 }
 
-/* name */
+/* padding adjust */
 
 @media only screen and (max-width: 38em) {
 
-  .no-padding-small-screens {
+  .no-padding-upto-med-screen {
     padding: 0;
   }
 
 }
 
-/* check-out */
+@media only screen and (max-width: 60em) {
 
-.check-out-desc-list {
+  .no-padding-upto-large-screen {
+  padding: 0;
+  }
+
+}
+
+/* checkout shipping description */
+
+.checkout-desc-list {
   padding-left: 2.25rem;
 }
