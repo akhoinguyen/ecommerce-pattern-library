@@ -1,9 +1,9 @@
 :root {
   --color-primary: #e3f6ff;
   --color-primary-dark: #446299;
-  --color-secondary: #beede4;
-  --color-accent-pink: #ffbbc6;
-  --color-accent-orange: #ffcdbd;
+  --color-secondary: #bff2e8;
+  --color-accent-pink: #ffe4e8;
+  --color-accent-orange: #ffe6da;
   --color-neutral-grey: #f6f6f6;
   --color-neutral-white: #fff;
   --color-neutral-black: #000;
@@ -14,7 +14,7 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-secondary);
-  color: var(--color-primary-dark);
+  color: var(--color-neutral-black);
 }
 
 p {
@@ -23,6 +23,11 @@ p {
 
 a {
   text-decoration: none;
+  font-family: var(--font-primary);
+  color: var(--color-neutral-black);
+}
+
+ul {
   font-family: var(--font-primary);
   color: var(--color-neutral-black);
 }
