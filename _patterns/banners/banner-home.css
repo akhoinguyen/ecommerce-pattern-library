@@ -1,7 +1,3 @@
-a {
-  font-family: var(--font-primary);
-}
-
 .banner-bg {
   background: url("/images/banner-home.jpg") center center / cover no-repeat;
   height: 100%;
