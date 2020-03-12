@@ -35,24 +35,6 @@ input[type="radio"]:checked +label::before {
   background-color: var(--color-secondary);
 }
 
-/* padding adjust */
-
-@media only screen and (max-width: 38em) {
-
-  .no-padding-upto-med-screen {
-    padding: 0;
-  }
-
-}
-
-@media only screen and (max-width: 60em) {
-
-  .no-padding-upto-large-screen {
-  padding: 0;
-  }
-
-}
-
 /* checkout shipping description */
 
 .checkout-desc-list {

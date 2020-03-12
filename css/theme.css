@@ -69,3 +69,29 @@ mark {
   max-width: 75em;
   width: 100%;
 }
+
+/* @utility new wider (45em) max-length class based on modulifier */
+.max-length-45 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 45em;
+  width: 100%;
+}
+
+/* @utility remove all paddings up to medium screen */
+@media only screen and (max-width: 38em) {
+
+  .no-padding-upto-med-screen {
+    padding: 0;
+  }
+
+}
+
+/* @utility remove all paddings up to large screen */
+@media only screen and (max-width: 60em) {
+
+  .no-padding-upto-large-screen {
+  padding: 0;
+  }
+
+}
