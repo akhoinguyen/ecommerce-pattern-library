@@ -56,7 +56,7 @@ flex-grow: 1;
 
 }
 
-/* for toggle nav: dim-background class to be added onto the last div outside of header w/ an absolute class on it when toggled */
+/* for toggle elements: dim-background class to be added onto the last div w/ absolute class */
 
 .toggle-bg-dim {
   width: 100vw;
