@@ -17,3 +17,8 @@ patterns:
     title: "Page navigation"
     description: |
       Pagination used at the bottom of product listing page.
+
+  filters:
+    title: "Product filters"
+    description: |
+      Used on the left of product listing.

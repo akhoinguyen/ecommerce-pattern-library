@@ -27,8 +27,34 @@
     </div>
 
     <div class="name-wrapper unit xs-1 m-1-2 push gutter-1-4 no-padding-upto-med-screen" style="padding-left: 0;">
-      <label for="checkout-province">Province</label>
-      <select id="checkout-province">
+      <label for="checkout-country">Country</label>
+      <select id="checkout-country" required>
+        <option>Albania</option>
+        <option>Australia</option>
+        <option>Belarus</option>
+        <option>Belgium</option>
+        <option>Bulgaria</option>
+        <option>Canada</option>
+        <option>China, Repulic of (Taiwan)</option>
+        <option>Denmark</option>
+        <option>Egypt</option>
+        <option>France</option>
+        <option>Germany</option>
+        <option>Japan</option>
+        <option>Moldova</option>
+        <option>Morocco</option>
+        <option>United States of America</option>
+        <option>Singapore</option>
+        <option>Venezuela</option>
+        <option>Vietnam</option>
+        <option>Zimbabue</option>
+      </select>
+    </div>
+
+    <div class="name-wrapper unit xs-1 m-1-2 push gutter-1-4 no-padding-upto-med-screen" style="padding-right: 0;">
+      <label for="checkout-province">State / Province</label>
+      <input list="province-list" id="checkout-province">
+      <datalist id="province-list">
         <option>Alberta</option>
         <option>British Columbia</option>
         <option>Manitoba</option>
@@ -42,12 +68,7 @@
         <option>Quebec</option>
         <option>Saskatchewan</option>
         <option>Yukon</option>
-      </select>
-    </div>
-
-    <div class="name-wrapper unit xs-1 m-1-2 push gutter-1-4 no-padding-upto-med-screen" style="padding-right: 0;">
-      <label for="checkout-country">Country</label>
-      <input type="text" id="checkout-country" required>
+      </datalist>
     </div>
 
     <div class="name-wrapper unit xs-1 m-1 push">

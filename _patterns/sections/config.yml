@@ -1,0 +1,20 @@
+title: "Sections"
+description: |
+  Different sections on different pages.
+
+patterns:
+  artist-featured:
+    title: "Featured artists"
+    description: |
+      This section is for use on the homepage to promote artists and display several of their work.
+
+  product-details:
+    title: "Product details"
+    description: |
+      It's a product details card that appears when a user clicks on a product card in the product listing.
+    background: --color-primary
+
+  about:
+    title: "About"
+    description: |
+      Consists of a heading stating inAn value proposition and a single paragraph about the company, this section is meant for use on the homepage. 

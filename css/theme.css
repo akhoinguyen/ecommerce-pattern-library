@@ -101,6 +101,15 @@ mark {
 
 }
 
+/*@utility remove all paddings on large screen */
+@media only screen and (min-width: 60em) {
+
+  .no-padding-large-screen {
+    padding: 0;
+  }
+
+}
+
 /* @utility for toggle elements: dim-background class to be added onto the last div w/ absolute class */
 
 .toggle-bg-dim {
