@@ -86,7 +86,7 @@ nav {
 .filter-wrap {
   position: absolute;
   width: 75%;
-  z-index: 200;
+  z-index: 500;
   height: 0;
   opacity: 0;
   transition: height .25s linear, opacity .25s linear;

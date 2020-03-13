@@ -55,15 +55,3 @@ flex-grow: 1;
 }
 
 }
-
-/* for toggle elements: dim-background class to be added onto the last div w/ absolute class */
-
-.toggle-bg-dim {
-  width: 100vw;
-  height: 100%;
-  z-index: 100;
-  background-color: var(--color-neutral-white);
-  mix-blend-mode: screen;
-  opacity: .5;
-  transition: background-color .125s ease-out;
-}
