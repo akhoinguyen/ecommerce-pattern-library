@@ -80,3 +80,44 @@ nav {
 .breadcrumb-current {
   background-color: var(--color-secondary);
 }
+
+/* filter */
+
+.filter-wrap {
+  position: absolute;
+  width: 75%;
+  z-index: 100;
+  height: 0;
+  opacity: 0;
+  transition: height .25s linear, opacity .25s linear;
+  overflow: hidden;
+}
+
+.filter-wrap.filter-visible {
+  height: 100%;
+  transition: height .25s linear;
+  opacity: 1;
+}
+
+.filter-label {
+display: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .filter-btn-wrap {
+  display: none;
+  }
+
+  .filter-wrap {
+    position: static;
+    opacity: 1;
+    width: auto;
+    height: auto;
+  }
+
+  .filter-label {
+  display: inherit;
+  }
+
+}

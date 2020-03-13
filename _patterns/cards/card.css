@@ -7,10 +7,7 @@
   box-shadow: 5px 5px 12px rgba(72, 104, 158, .25);
 }
 
-ul {
-  font-family: var(--font-primary);
-  color: var(--color-neutral-black);
-}
+
 
 /* product-card */
 
