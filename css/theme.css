@@ -36,7 +36,7 @@ mark {
   background-color: var(--color-secondary);
 }
 
-/* @utility width: 75% (custom based on modulifier) */
+/* @utility width: 75% (custom based on Modulifier) */
 .w-3-4 {
   width: 75%;
 }
@@ -67,7 +67,7 @@ mark {
   font-weight: 700;
 }
 
-/* @utility new wider (75em) wrapper class based on modulifier */
+/* @utility new wider (75em) wrapper class based on Modulifier */
 .wrapper-75 {
   margin-left: auto;
   margin-right: auto;
@@ -75,7 +75,7 @@ mark {
   width: 100%;
 }
 
-/* @utility new wider (45em) max-length class based on modulifier */
+/* @utility new wider (45em) max-length class based on Modulifier */
 .max-length-45 {
   margin-left: auto;
   margin-right: auto;
@@ -120,4 +120,15 @@ mark {
   mix-blend-mode: screen;
   opacity: .5;
   transition: background-color .125s ease-out;
+}
+
+/* @utility unit-push and -pull on large screen with denominator of 5 customized based on a 5-unit Gridifier grid */
+@media only screen and (min-width: 60em) {
+  .unit-push-l-1-5 {
+    left: 20%;
+  }
+
+  .unit-pull-l-4-5 {
+    left: -80%;
+  }
 }

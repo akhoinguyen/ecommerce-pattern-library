@@ -21,4 +21,4 @@ patterns:
   filters:
     title: "Product filters"
     description: |
-      Used on the left of product listing.
+      Used on the left side of product listing as part of the grid system. Toggle filter on small screen, fully visible on medium and large screen.
