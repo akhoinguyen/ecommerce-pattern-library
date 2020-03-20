@@ -111,7 +111,6 @@ mark {
 }
 
 /* @utility for toggle elements: dim-background class to be added onto the last div w/ absolute class */
-
 .toggle-bg-dim {
   width: 100vw;
   height: 100%;

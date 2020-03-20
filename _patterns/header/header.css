@@ -54,7 +54,8 @@
 
 /* header-logo animation */
 
-.header-logo:hover img {
+header a:hover img,
+header a:hover svg {
   animation: jelly 1.25s linear both;
 }
 
