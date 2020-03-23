@@ -8,6 +8,7 @@ patternbot:
   colors:
     sidebar: --color-primary
     accent: --color-primary-dark
+
   rationales:
     typefaces.primary: |
       Montserrat was selected because of its clean, modern look. It is the basic sans serif used for body copy.
@@ -21,3 +22,7 @@ patternbot:
       Two accent colours are chosen to be warm and also pastel-y to complement cool primary and secondary colours.
     colors.neutral: |
       A neutral grey is present and is mainly used for background-color of containers, alongside with white.
+
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header and footer.

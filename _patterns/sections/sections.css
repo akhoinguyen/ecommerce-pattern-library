@@ -9,7 +9,7 @@
 /* print media */
 
 .print-media {
-  background: url("/images/printmedia-bg.svg") center center / cover no-repeat;
+  background: url("/images/pattern-funky-1-lightened.svg") center center / cover no-repeat;
 }
 
 @media only screen and (min-width: 38em) {

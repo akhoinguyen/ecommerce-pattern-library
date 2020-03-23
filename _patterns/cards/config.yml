@@ -1,17 +1,13 @@
 title: "Cards"
 description: |
-  Different cards used throughout the website.
+  Different cards used throughout the website. <i>(scroll down for preview)</i>.
 
 patterns:
-  bunch-o-cards:
-    title: "Cards preview"
-    description: |
-      Just a bunch-o-cards (for preview).
-
   product-card:
     title: "Product card"
     description: |
       Example of a product card which appears in product listing pages. The image, the seller info and the bottom button are clickable.
+    width: 25%
 
   info-card:
     title: "Info card"
@@ -22,3 +18,15 @@ patterns:
     title: "Image card"
     description: |
       Image card consists of a clickable image and text, and is used to showcase artworks on main page. Hovering over the image brings up a heart icon to quickly add the item to <i>Favourites</i>.
+    width: 25%
+
+  category-card:
+    title: "Category card"
+    description: |
+      A simple, square-formatted image card to show featured categories on homepage.
+    width: 25%
+
+  bunch-o-cards:
+    title: "Cards preview"
+    description: |
+      Just a bunch-o-cards (for preview).
