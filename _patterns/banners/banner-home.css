@@ -1,8 +1,3 @@
-.banner-bg {
-  background: url("/images/banner-home.jpg") center center / cover no-repeat;
-  height: 100%;
-}
-
 .banner-bg-animate {
   transform: scale(1.15);
   opacity: 0;

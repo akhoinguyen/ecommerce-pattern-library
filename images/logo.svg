@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><path fill="#e3f6ff" d="M-.3 0h256.5v256H-.3z"/><path fill="#ffbbc6" d="M215.8 0L-.3 255.5V0h216.1z"/><path fill="#446299" d="M150.4 0L.1 177.7V0h150.3z"/><path fill="#ffbbc6" d="M256.3 72l-56.5 66.5h56.5V72zM171 205.1v29.7h-53.7L99.4 256h99.8v-51l-28.2.1z"/><path fill="#446299" d="M171 205.1l-28.8.1-24.9 29.6H171v-29.7z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E3F6FF;}
+	.st1{fill:#FFBBC6;}
+</style>
+<path d="M-0.3,0h256.5v256H-0.3V0z"/>
+<path class="st0" d="M215.8,0L-0.3,255.5V0H215.8z"/>
+<path class="st1" d="M150.4,0L0.1,177.7V0H150.4L150.4,0z"/>
+<path class="st0" d="M256.3,72l-56.5,66.5h56.5V72z M171,205.1v29.7h-53.7L99.4,256h99.8v-51L171,205.1L171,205.1z"/>
+<path class="st1" d="M171,205.1l-28.8,0.1l-24.9,29.6H171V205.1L171,205.1z"/>
+</svg>

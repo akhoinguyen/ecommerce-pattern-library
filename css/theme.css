@@ -12,6 +12,12 @@
   --font-secondary: "Playfair Display", serif;
 }
 
+body {
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-secondary);
   color: var(--color-neutral-black);

@@ -7,16 +7,28 @@ patterns:
     title: "Basic"
     description: |
       The strongest, most attention-grabbing one, used for the most important action on the page. Should have only <strong>one</strong> per page. Should only be used in front of white backgrorund.
-    width: 10em;
+    width: 10em
 
   ghost:
     title: "Ghost"
     description: |
       Mainly used for more subtle or secondary actions. Can be used in front of images, most likely on banners or next to basic buttons for contrast.
-    width: 10em;
+    width: 10em
 
   light:
     title: "Light"
     description: |
       Used for actions that don't require utmost attention but are important nonetheless. Can have more than one per page.
-    width: 10em;
+    width: 10em
+
+  link:
+    title: "Link"
+    description: |
+      Simple link "button" with virtually no styling.
+    fields:
+      - name: text
+        type: string
+        example: "Learn more"
+      - name: url
+        type: url
+        example: "/products/"
