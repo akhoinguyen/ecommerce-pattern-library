@@ -37,6 +37,10 @@ nav {
   left: 0;
 }
 
+.nav-link-current {
+  background-color: var(--color-accent-pink);
+}
+
 @media only screen and (min-width: 38em) {
 
   .nav-links {

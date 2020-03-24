@@ -9,14 +9,11 @@
 
 <nav role="navigation" class="nav-links pad-t white-bg">
   <ul class="list-group nav-list push-0">
-    <li class="push"><a href="/products/">Wall Art</a></li>
-    <li class="push"><a href="/products/">Furniture</a></li>
-    <li class="push"><a href="/products/">Home Decor</a></li>
-    <li class="push"><a href="/products/">Clothings</a></li>
-    <li class="push"><a href="/products/">Gifts</a></li>
-    <li class="push"><a href="#">Login|Signup</a></li>
+    <li class="push {% if page.current_nav == 'products' %}nav-link-current{% endif %}"><a href="/products/">Wall Art</a></li>
+    <li class="push"><a>Furniture</a></li>
+    <li class="push"><a>Home Decor</a></li>
+    <li class="push"><a>Clothings</a></li>
+    <li class="push"><a>Gifts</a></li>
+    <li class="push"><a>Login|Signup</a></li>
   </ul>
 </nav>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="/js/nav.js"></script>
