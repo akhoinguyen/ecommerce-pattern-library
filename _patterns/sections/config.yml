@@ -1,12 +1,22 @@
 title: "Sections"
 description: |
-  Different sections on different pages.
+  Different sections on different pages. Most of these sections are created with a <code>heading</code> and a grid system, which has other patterns incorporated into, for example a grid of different cards.
 
 patterns:
-  artist-featured:
+  featured-categories:
+    title: "Featured products of the month"
+    description: |
+      Used on the homepage, this section promotes several product categories of the current month. This section is the first section on the homepage, coming right after the banner.
+
+  featured-products:
+    title: "Find your favourite prints"
+    description: |
+      This section shows a variety of featured prints for used on the homepage.
+
+  featured-artist:
     title: "Featured artists"
     description: |
-      This section is for use on the homepage to promote artists and display several of their work.
+      This section is for use on the homepage to promote artists and display several examples of their work.
 
   product-details:
     title: "Product details"
@@ -17,4 +27,9 @@ patterns:
   about:
     title: "About"
     description: |
-      Consists of a heading stating inAn value proposition and a single paragraph about the company, this section is meant for use on the homepage. 
+      Consists of a heading stating inAn value proposition and a single paragraph about the company, this section is meant for use on the homepage.
+
+  print-media:
+    title: "Print media"
+    description: |
+      This section showcases several of inAn's print media that's available for artists and fans to create and purchase.

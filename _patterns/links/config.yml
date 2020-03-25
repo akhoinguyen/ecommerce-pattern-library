@@ -22,3 +22,8 @@ patterns:
     title: "Search bar"
     description: |
       Used on header.
+
+  close:
+    title: "Close"
+    description: |
+      Used on pop-up elements to cancel/exit and go back.

@@ -1,12 +1,12 @@
 <div class="banner grid relative">
 
-  <div class="unit xs-1 s-1 m-1 l-2-3 banner-img">
-    <div class="banner-bg banner-bg-animate">
+  <div class="unit xs-1 s-1 m-1 l-2-3 banner-img-unit">
+    <div class="banner-img-wrap">
       <img class="img-flex" src="/images/banner-{{include.imgsrc}}.jpg" alt="">
     </div>
   </div>
 
-  <div class="unit xs-1 s-1 m-1 l-1-3 unit-content-center center-text island-2 banner-text banner-text-animate">
+  <div class="unit xs-1 s-1 m-1 l-1-3 unit-content-center center-text island-2 banner-text">
     <h1>{{include.heading}}</h1>
     <p class="push-1-4">{{include.text}}</p>
     {% if include.button_url %}

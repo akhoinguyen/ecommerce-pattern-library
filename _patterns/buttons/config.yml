@@ -1,18 +1,32 @@
 title: "Buttons"
 description: |
-  m y b u t t o n s.
+  Benjamin.
 
 patterns:
   basic:
     title: "Basic"
     description: |
       The strongest, most attention-grabbing one, used for the most important action on the page. Should have only <strong>one</strong> per page. Should only be used in front of white backgrorund.
+    fields:
+      - name: text
+        type: string
+        example: "Add to cart"
+      - name: url
+        type: url
+        example: "#"
     width: 10em
 
   ghost:
     title: "Ghost"
     description: |
       Mainly used for more subtle or secondary actions. Can be used in front of images, most likely on banners or next to basic buttons for contrast.
+    fields:
+      - name: text
+        type: string
+        example: "Add to favourites"
+      - name: url
+        type: url
+        example: "#"
     width: 10em
 
   light:

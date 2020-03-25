@@ -2,31 +2,18 @@
 layout: default
 ---
 
-<div class="wrapper-75 gutter push-2">
-  <div class="pad-b-2">
+<div class="wrapper-75">
+  <div class="push-2">
     {% pattern banners/banner-home-animated button_url="/products/" button_text="Shop now" heading="Your living space is your gallery." text="Express yourself through art printed on clothes, home decor, accessories and more." imgsrc="home-3" %}
   </div>
-</div>
 
-<div class="push-2">
-  <div class="pad-t-2 pad-b-2 wrapper-75 gutter">
-    <h2 class="zetta center-text">Featured</h2>
-    {% pattern cards/bunch-o-cards %}
+  <div class="wrapper-60 push-2">
+    {% pattern sections/featured-categories %}
   </div>
-</div>
+  {% pattern sections/featured-products %}
 
-<div class="push-2 pad-t-2 pad-b-2 wrapper-75 gutter">
-  <div class="pad-t-2 pad-b-2" style="background-color: var(--color-accent-pink);">{% pattern sections/about %}</div>
-</div>
+  <div class="push-2 island-2" style="background-color: var(--color-accent-pink);">
+    {% pattern sections/about %}
+  </div>
 
-<div class="push-2 pad-t-2 wrapper-75 gutter">
-  {% pattern cards/info-card %}
-</div>
-
-<div class="wrapper-75 gutter pad-t-2 pad-b-2">
-  {% pattern sections/artist-featured %}
-</div>
-
-<div class="push-2 wrapper-75 gutter pad-t-2 pad-b-2">
-  {% pattern sections/print-media %}
 </div>
