@@ -10,16 +10,16 @@ patterns:
     fields:
       - name: heading
         type: string
-        example: "Make a statement? Use art."
+        example: "Statement."
       - name: text
         type: string
-        example: "Shop a large collection of products with your favourite prints."
+        example: "Some text."
       - name: imgsrc
         type: string
         example: "home"
       - name: button_text
         type: string
-        example: "Shop now"
+        example: "call-to-action"
         required: false
       - name: button_url
         type: url

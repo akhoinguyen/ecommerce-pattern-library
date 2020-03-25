@@ -4,14 +4,14 @@
 }
 
 .card-shadow {
-  box-shadow: 5px 5px 12px rgba(72, 104, 158, .25);
+  box-shadow: 5px 5px 10px rgba(72, 104, 158, .1);
 }
 
 /* product-card */
 
 .product-card-more-info {
   opacity: 0;
-  transition: opacity .25s linear;
+  transition: opacity .125s .1s linear;
 }
 
 .product-card-hover:hover .product-card-more-info {
@@ -36,7 +36,7 @@
 
 .img-card-favourite {
   opacity: 0;
-  transition: opacity .25s linear;
+  transition: opacity .125s linear;
 }
 
 .img-card-hover:hover .img-card-favourite {

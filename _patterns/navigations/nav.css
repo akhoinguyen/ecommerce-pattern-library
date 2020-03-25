@@ -41,6 +41,10 @@ nav {
   background-color: var(--color-accent-pink);
 }
 
+.nav-list a:not([href]) {
+  cursor: not-allowed;
+}
+
 @media only screen and (min-width: 38em) {
 
   .nav-links {
