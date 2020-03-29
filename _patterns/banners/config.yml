@@ -14,9 +14,9 @@ patterns:
       - name: text
         type: string
         example: "Some text."
-      - name: imgsrc
+      - name: image
         type: string
-        example: "home"
+        example: "home.jpg"
       - name: button_text
         type: string
         example: "call-to-action"

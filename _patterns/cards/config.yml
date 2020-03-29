@@ -8,6 +8,13 @@ patterns:
     description: |
       Example of a product card which appears in product listing pages. The image, the seller info and the bottom button are clickable.
     width: 25%
+    fields:
+      - name: title
+        type: string
+        example: "La Muralla Roja"
+      - name: price
+        type: number
+        example: 48.0
 
   info-card:
     title: "Info card"
@@ -18,12 +25,23 @@ patterns:
     title: "Image card"
     description: |
       Image card consists of a clickable image and text, and is used to showcase artworks on main page. Hovering over the image brings up a heart icon to quickly add the item to <i>Favourites</i>.
+    fields:
+      - name: title
+        type: string
+        example: "Abstract Jungle Pattern"
     width: 25%
 
   thumbnail-card-sq:
     title: "Thumbnail card"
     description: |
       A simple, square-formatted image card to show thumbnail of items. This card is used for not just products, therefore it doesn't have an <i>add to Favourites</i> feature.
+    fields:
+      - name: title
+        type: string
+        example: "Throw pillows"
+      - name: image
+        type: string
+        example: "square-pillow.jpg"
     width: 25%
 
   bunch-o-cards:

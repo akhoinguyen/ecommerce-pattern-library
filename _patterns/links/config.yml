@@ -12,11 +12,22 @@ patterns:
     title: "Seller"
     description: |
       Used specifically on product details card.
+    fields:
+      - name: name
+        type: string
+        example: "Jeanne d'Art"
+      - name: image
+        type: string
+        example: "jeanne.jpg"
 
   artist:
     title: "Artist"
     description: |
       Used wherever the artist's name is needed. Acts same as <em>Seller</em> without thumbnail and rating.
+    fields:
+      - name: name
+        type: string
+        example: "George W. Brush"
 
   searchbar:
     title: "Search bar"

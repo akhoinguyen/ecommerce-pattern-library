@@ -11,9 +11,9 @@
   </a>
 
   <div class="gutter">
-    <h3 class="push-1-4 truncate" style="font-family: var(--font-primary);">La Muralla Roja</h3>
-    <p class="push">{% pattern links/seller %}</p>
-    <p class="fw-600">$ 48.0 CAD</p>
+    <h3 class="push-1-4 truncate" style="font-family: var(--font-primary);">{{include.title}}</h3>
+    <p class="push">{% pattern links/seller name="Jeanne d'Art" image="jeanne.jpg" %}</p>
+    <p class="fw-600">$ {{include.price}} CAD</p>
     <!--<ul class="list-group milli">
       <li>custom sizes available</li>
       <li>delivers within 5–7 days</li>
