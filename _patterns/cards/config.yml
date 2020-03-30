@@ -15,6 +15,9 @@ patterns:
       - name: price
         type: number
         example: 48.0
+      - name: image
+        type: string
+        example: "pastel.jpg"
 
   info-card:
     title: "Info card"
