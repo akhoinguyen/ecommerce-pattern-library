@@ -29,6 +29,12 @@ patterns:
       - name: title
         type: string
         example: "Abstract Jungle Pattern"
+      - name: image
+        type: string
+        example: "img-card.jpg"
+      - name: artist_name
+        type: string
+        example: "George W. Brush"
     width: 25%
 
   thumbnail-card-sq:
