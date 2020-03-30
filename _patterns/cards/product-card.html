@@ -13,7 +13,7 @@
   <div class="gutter">
     <h3 class="push-1-4 truncate" style="font-family: var(--font-primary);">{{include.title}}</h3>
     <p class="push">{% pattern links/seller name="Jeanne d'Art" image="jeanne.jpg" %}</p>
-    <p class="fw-600">$ {{include.price}} CAD</p>
+    <p class="fw-600">{% if include.price-reg %} <del class="gutter-1-2" style="padding-left: 0;">${{include.price-reg}}</del> {% endif %}  ${{include.price}} CAD</p>
     <!--<ul class="list-group milli">
       <li>custom sizes available</li>
       <li>delivers within 5–7 days</li>

@@ -14,7 +14,11 @@ patterns:
         example: "La Muralla Roja"
       - name: price
         type: number
-        example: 48.0
+        example: 36.0
+      - name: price-reg
+        type: number
+        example: 60.0
+        required: false
       - name: image
         type: string
         example: "pastel.jpg"
