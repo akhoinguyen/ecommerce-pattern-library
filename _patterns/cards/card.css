@@ -19,7 +19,7 @@
 
 .product-card-more-info {
   opacity: 0;
-  transition: opacity .125s .1s linear;
+  transition: opacity .125s linear;
 }
 
 .product-card-hover:hover .product-card-more-info {
