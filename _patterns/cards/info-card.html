@@ -1,11 +1,13 @@
 <div class="card card-shadow grid grid-stretch grid-middle">
   <div class="unit xs-1 s-1 m-1-2 l-1-2 unit-content-distribute">
-    <div class="content-fill info-card-bg"></div>
+    <div class="content-fill info-card-bg relative">
+      <img class="pin-c img-flex" src="/images/{{include.image}}" alt="">
+    </div>
   </div>
 
   <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-2 pad-t pad-b unit-content-distribute unit-content-center center-text">
-    <h2>Big changes coming this June!</h2>
-    <p>96 new cities for international shipping, 20+ new print medium, Summer Art Camps and many more exciting news coming this summer.</p>
+    <h2>{{include.title}}</h2>
+    <p>{{include.text}}</p>
     <div>{% pattern buttons/light %}</div>
   </div>
 </div>

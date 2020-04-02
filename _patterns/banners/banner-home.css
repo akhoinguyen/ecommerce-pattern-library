@@ -8,7 +8,7 @@
   height: 100%;
   transform: scale(1.15);
   opacity: 0;
-  animation: fade-in 1s .75s ease-in forwards;
+  animation: fade-in .75s .5s ease-in forwards;
 }
 
 @media only screen and (min-width: 60em) {

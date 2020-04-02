@@ -8,7 +8,7 @@ patterns:
     description: |
       Used on the homepage, this section promotes several product categories of the current month. This section is the first section on the homepage, coming right after the banner.
 
-  featured-products:
+  featured-prints:
     title: "Find your favourite prints"
     description: |
       This section shows a variety of featured prints for used on the homepage.

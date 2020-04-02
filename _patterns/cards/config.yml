@@ -27,6 +27,16 @@ patterns:
     title: "Info card"
     description: |
       Info cards are used to draw customers' attention to short, concise information, for example sales or upcoming big changes. It consists of an image, descriptive text and a call-to-action button.
+    fields:
+      - name: title
+        type: string
+        example: "Big changes coming this June!"
+      - name: text
+        type: string
+        example: "96 new cities for international shipping, 20+ new print medium, Summer Art Camps and many more exciting news coming this summer."
+      - name: image
+        type: string
+        example: "pattern-funky-1.svg"
 
   img-card:
     title: "Image card"

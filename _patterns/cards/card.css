@@ -3,11 +3,11 @@
   overflow: hidden;
 }
 
-.card img {
+.card-hover img {
   transition: transform .125s linear;
 }
 
-.card:hover img:not(.img-weird) {
+.card-hover:hover img:not(.img-weird) {
   transform: scale(1.15);
 }
 
@@ -35,7 +35,7 @@
 
 .info-card-bg {
   padding-top: 60%;
-  background: url("/images/info-card-bg.svg") center center / cover no-repeat;
+  overflow: hidden;
 }
 
 /* img-card */
