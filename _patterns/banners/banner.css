@@ -13,12 +13,12 @@
 
 @media only screen and (min-width: 60em) {
 
-.banner-img-wrap img {
-  width: auto;
-height: 100%;
-}
+  .banner-img-wrap img {
+    width: auto;
+    height: 100%;
+  }
 
-/* since using img tag instead of background css property, this is to ensure the image scales properly on large screen while maintaining full width on smaller screens */
+  /* since using img tag instead of background css property, this is to ensure the image scales properly on large screen while maintaining full width on smaller screens */
 
 }
 
@@ -46,5 +46,5 @@ height: 100%;
   to {
     transform: scale(1);
     opacity: 1;
-    }
+  }
 }

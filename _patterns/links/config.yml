@@ -38,3 +38,15 @@ patterns:
     title: "Close"
     description: |
       Used on pop-up elements to cancel/exit and go back.
+
+  link:
+    title: "Link"
+    description: |
+      Simple link "button" with virtually no styling.
+    fields:
+      - name: text
+        type: string
+        example: "Learn more"
+      - name: url
+        type: url
+        example: "/products/"
