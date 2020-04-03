@@ -1,8 +1,8 @@
 <div class="card card-hover card-shadow pad-b">
-  <a href="#">
+  <a href="{{include.data.url}}">
     <div class="product-card-hover relative">
       <div class="embed embed-1by1 push">
-        <img class="embed-item" src="/images/{{include.image}}" alt="">
+        <img class="embed-item" src="/images/{{include.data.image}}" alt="">
       </div>
       <div class="white-bg center-text pin-cb width-full pad-t-1-2 mega product-card-more-info">
         <p class="push-1-2">Details</p>
@@ -11,13 +11,13 @@
   </a>
 
   <div class="gutter">
-    <h3 class="push-1-4 truncate" style="font-family: var(--font-primary);">{{include.title}}</h3>
-    <p class="push">{% pattern links/seller name="Jeanne d'Art" image="jeanne.jpg" %}</p>
-    <p class="fw-600">{% if include.price-reg %} <del class="gutter-1-2" style="padding-left: 0;">${{include.price-reg}}</del> {% endif %}  ${{include.price}} CAD</p>
+    <h3 class="push-1-4 truncate" style="font-family: var(--font-primary);">{{include.data.title}}</h3>
+    <p class="push">{% pattern links/seller name=include.data.artist image="jeanne.jpg" %}</p>
+    <p class="fw-600">{% if include.data.price-reg %} <del class="gutter-1-2" style="padding-left: 0;">${{include.data.price-reg}}</del> {% endif %}  ${{include.data.price}} CAD</p>
     <!--<ul class="list-group milli">
       <li>custom sizes available</li>
       <li>delivers within 5–7 days</li>
     </ul> -->
-    <div>{% pattern buttons/ghost text="Buy now" url="#" %}</div>
+    <div>{% pattern buttons/ghost text="Buy now" url=include.data.url %}</div>
   </div>
 </div>

@@ -9,19 +9,11 @@ patterns:
       Example of a product card which appears in product listing pages. The image, the seller info and the bottom button are clickable.
     width: 25%
     fields:
-      - name: title
-        type: string
-        example: "La Muralla Roja"
-      - name: price
-        type: number
-        example: 36.0
-      - name: price-reg
-        type: number
-        example: 60.0
-        required: false
-      - name: image
-        type: string
-        example: "pastel.jpg"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
 
   info-card:
     title: "Info card"

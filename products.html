@@ -14,64 +14,23 @@ current_nav: products
   <h2 class="zetta push-2 center-text">Framed Prints</h2>
 
   <div class="grid push-2">
+
     <div class="unit xs-1 s-1 m-1-3 l-1-5 island-1-2" style="padding-top: 0;">
       {% pattern navigations/filters %}
     </div>
 
-    <div class="unit xs-1 s-1 m-2-3 l-4-5">
+    <div class="unit xs-1 s-1 m-2-3 l-4-5">            
 
       <div class="center-text">
         {% pattern navigations/page-nav %}
       </div>
 
       <div class="grid push">
+        {% for product in site.products %}
         <div class="unit gutter-1-2 push xs-1 s-1 m-1-2 l-1-3">
-          {% pattern cards/product-card title="La Muralla Roja" price-reg=60.0 price=36.0 image="product-1.jpg" %}
+          {% pattern cards/product-card data=product %}
         </div>
-
-        <div class="unit gutter-1-2 push xs-1 s-1 m-1-2 l-1-3">
-          {% pattern cards/product-card title="La Muralla Roja" price-reg=60.0 price=36.0 image="product-2.jpg" %}
-        </div>
-
-        <div class="unit gutter-1-2 push xs-1 s-1 m-1-2 l-1-3">
-          {% pattern cards/product-card title="La Muralla Roja" price-reg=60.0 price=36.0 image="product-3.jpg" %}
-        </div>
-
-        <div class="unit gutter-1-2 push xs-1 s-1 m-1-2 l-1-3">
-          {% pattern cards/product-card title="La Muralla Roja" price-reg=60.0 price=36.0 image="product-4.jpg" %}
-        </div>
-
-        <div class="unit gutter-1-2 push xs-1 s-1 m-1-2 l-1-3">
-          {% pattern cards/product-card title="La Muralla Roja" price-reg=60.0 price=36.0 image="product-5.jpg" %}
-        </div>
-
-        <div class="unit gutter-1-2 push xs-1 s-1 m-1-2 l-1-3">
-          {% pattern cards/product-card title="La Muralla Roja" price-reg=60.0 price=36.0 image="product-6.jpg" %}
-        </div>
-
-        <div class="unit gutter-1-2 push xs-1 s-1 m-1-2 l-1-3">
-          {% pattern cards/product-card title="La Muralla Roja" price-reg=60.0 price=36.0 image="product-7.jpg" %}
-        </div>
-
-        <div class="unit gutter-1-2 push xs-1 s-1 m-1-2 l-1-3">
-          {% pattern cards/product-card title="La Muralla Roja" price-reg=60.0 price=36.0 image="product-8.jpg" %}
-        </div>
-
-        <div class="unit gutter-1-2 push xs-1 s-1 m-1-2 l-1-3">
-          {% pattern cards/product-card title="La Muralla Roja" price-reg=60.0 price=36.0 image="product-9.jpg" %}
-        </div>
-
-        <div class="unit gutter-1-2 push xs-1 s-1 m-1-2 l-1-3">
-          {% pattern cards/product-card title="La Muralla Roja" price-reg=60.0 price=36.0 image="product-10.jpg" %}
-        </div>
-
-        <div class="unit gutter-1-2 push xs-1 s-1 m-1-2 l-1-3">
-          {% pattern cards/product-card title="La Muralla Roja" price-reg=60.0 price=36.0 image="product-11.jpg" %}
-        </div>
-
-        <div class="unit gutter-1-2 push xs-1 s-1 m-1-2 l-1-3">
-          {% pattern cards/product-card title="La Muralla Roja" price-reg=60.0 price=36.0 image="product-12.jpg" %}
-        </div>
+        {% endfor %}
       </div>
 
       <div class="center-text">
@@ -79,6 +38,7 @@ current_nav: products
       </div>
 
     </div>
+
   </div>
 
 </div>
