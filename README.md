@@ -1,3 +1,15 @@
+# inAn E-commerce Website Pattern Library
+
+---
+
+## Brief
+
+*inAn* is a fictitious e-commerce website that sells artworks printed on a variety of print-on-demand products. *inAn* is built on a vibrant community of creatives and art & design enthusiasts who, with love and passion, helped keep *inAn* growing.
+
+This project is part of the [Graphic Design](https://www.algonquincollege.com/mediaanddesign/program/graphic-design/) curriculum at Algonquin College. It showcases a designer's abilities to create and work with a pattern library to build a multi-page website, as well as demonstrating their understanding of web design in general.
+
+---
+
 ## Installation
 
 The pattern library is a Jekyll & Patternbot based application, so it requires Ruby to be installed.
@@ -68,3 +80,17 @@ Photos - *Artists to Follow*:
 ### Other
 
 Social media icons: [Brands of the World](https://www.brandsoftheworld.com/)
+
+---
+
+## Contributors
+
+**Thomas J. Bradley** (@thomasjbradley), professor at Algonquin College, School of Media and Design; creator and mentor of this project.
+
+**Khoi A. Nguyen** (me :) ), designer and developer of the website as well as its pattern library.
+
+---
+
+## License
+
+© 2020 Khoi Nguyen.
