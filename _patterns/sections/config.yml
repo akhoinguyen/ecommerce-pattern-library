@@ -33,3 +33,9 @@ patterns:
     title: "Print media"
     description: |
       This section showcases several of inAn's print media that's available for artists and fans to create and purchase.
+
+  newsletter:
+    title: "Newsletter"
+    description: |
+      This section should be the last section of the homepage, located just above the footer. The pink background is important to create contrast.
+    background: --color-accent-pink
