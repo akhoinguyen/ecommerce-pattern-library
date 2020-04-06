@@ -3,10 +3,33 @@ description: |
   These are the banners that appear at the top of the pages. They are either animated with fade effects or static. Although animated banners are fun and all, static ones are favoured for accessibility reasons.
 
 patterns:
-  banner-reg:
-    title: "(animated) Home Banner"
+  banner-fade-in:
+    title: "Fade-in Banner"
     description: |
-      Look-wise it is identical to the static banner above, the difference is this one has a fade-in transition effect, which is a concern when it comes to accessibility. Thus this banner should <strong>only</strong> be used when there is a fallback static banner in place.
+      This banner has a fade-in transition effect. Animation is simple and not too resource-heavy which is great to add interest.
+    fields:
+      - name: heading
+        type: string
+        example: "Statement."
+      - name: text
+        type: string
+        example: "Some text."
+      - name: image
+        type: string
+        example: "home.jpg"
+      - name: button_text
+        type: string
+        example: "call-to-action"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
+
+  banner-fly-in:
+    title: "Fly-in Banner"
+    description: |
+      Look-wise it is identical to the fade-in banner above, the difference is this one has a fly-in transition effect, which lags a little more compared to fade-in transition. Fly-in transition is limited to large screen only to optimize performance on mobile devices.
     fields:
       - name: heading
         type: string

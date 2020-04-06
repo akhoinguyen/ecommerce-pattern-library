@@ -1,10 +1,18 @@
-.banner-img-unit {
-  height: 50vw;
-  max-height: 500px;
+/* reason for a bunch of overflow: hidden is because animations take place outside of browser viewport, therefore w/o it the scrollbar will go galkndknwl */
+
+.banner {
   overflow: hidden;
 }
 
-.banner-img-wrap {
+/* fade-in banner */
+
+.banner-img-unit, .banner-blank-unit {
+  height: 50vw;
+  max-height: 600px;
+  overflow: hidden;
+}
+
+.banner-img-wrap, .banner-blank-wrap {
   height: 100%;
   transform: scale(1.15);
   opacity: 0;
@@ -25,9 +33,32 @@
 .banner-text {
   opacity: 0;
   animation: show .75s .25s linear forwards;
+  background-color: var(--color-neutral-white);
+}
+
+/* fly-in banner */
+
+.banner-fade-in {
+  opacity: 0;
+  animation: fade-in .75s .25s ease-out forwards;
+}
+
+.banner-fade-in-wrap {
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-text-fly-in {
+    position: relative;
+    left: 100%;
+    animation: fly-in 1.25s .25s ease-out forwards;
+  }
+
 }
 
 @keyframes show {
+
   from {
     opacity: 0;
   }
@@ -35,9 +66,11 @@
   to {
     opacity: 1;
   }
+
 }
 
 @keyframes fade-in {
+
   from {
     transform: scale(1.15);
     opacity: 0;
@@ -47,4 +80,17 @@
     transform: scale(1);
     opacity: 1;
   }
+
+}
+
+@keyframes fly-in {
+
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: 0;
+  }
+
 }
