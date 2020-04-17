@@ -23,18 +23,12 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-neutral-black);
 }
 
-p {
-  font-family: var(--font-primary);
-}
-
-a {
-  text-decoration: none;
+*:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(mark) {
   font-family: var(--font-primary);
   color: var(--color-neutral-black);
 }
 
 ul {
-  font-family: var(--font-primary);
   color: var(--color-neutral-black);
 }
 
@@ -42,8 +36,8 @@ mark {
   background-color: var(--color-secondary);
 }
 
-table {
-  font-family: var(--font-primary);
+dt {
+  font-weight: 700;
 }
 
 td {

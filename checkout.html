@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+<div class="center-text push-2 pad-t-2">
+  <h1 class="zetta">Checkout</h1>
+</div>
+
 <div class="wrapper-60 pad-t-2 pad-b push-2" style="background-color: var(--color-accent-orange);">
   <div class="max-length-45 gutter">
 
@@ -24,18 +28,20 @@ layout: default
 
 <div class="pad-b-2"></div>
 
-<div class="center-text push-2"><h1 class="zetta">Order Summary</h1></div>
+<div class="center-text push-2">
+  <h1 class="zetta">Order Summary</h1>
+</div>
 
 <div class="pad-b-2"></div>
 
 <div class="wrapper-60 gutter push-2">
-  {% pattern sections/item-summary %}
+  {% pattern sections/order-summary %}
 </div>
 
 <div class="max-length-45 gutter pad-b-2 push-2">
 
   <div class="push-2">
-    <h2 class="push-0">Shipping</h2>
+    <h2 class="push-1-2">Shipping</h2>
     {% pattern form/shipping %}
   </div>
 
