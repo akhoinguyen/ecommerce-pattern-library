@@ -1,6 +1,6 @@
 ---
 title: "Organizations"
 description: |
-  Isn't it fun when you spend your Sunday at a coffee shop and you see a car parked across the street with the word <i>coffee</i> on the side. Your coffee tastes differently all of a sudden.
+  You are an organization looking to decorate your space? You want high-quality product at great price and excellent service? You have come to the right place!
 image: promo-organizations.jpg
 ---
