@@ -8,7 +8,7 @@ current_nav: products
 
 <div class="pad-b-2"></div>
 
-<div class="wrapper-75">
+<div class="wrapper-75" id="main">
 
   <div class="push-2 center-text">
     {% pattern navigations/breadcrumb-nav %}
@@ -30,7 +30,7 @@ current_nav: products
       <div class="grid push">
         {% for product in site.products %}
         <div class="unit gutter-1-2 push xs-1 s-1 m-1-2 l-1-3">
-          {% pattern cards/product-card data=product %}
+          {% pattern cards/product-card button_text="Add to Favourites" data=product %}
         </div>
         {% endfor %}
       </div>

@@ -10,8 +10,13 @@
 </head>
 <body class="">
 
+  <ul class="skip-links">
+    <li><a href="#nav">Jump to Navigation</a></li>
+    <li><a href="#main">Jump to Main content</a></li>
+  </ul>
+
   {% pattern header/main-header %}
-  <div class="">{{content}}</div>
+  {{content}}
   {% pattern footer/footer %}
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

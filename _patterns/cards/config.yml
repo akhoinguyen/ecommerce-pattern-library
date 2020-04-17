@@ -14,6 +14,9 @@ patterns:
         data:
           source: "site.products[0]"
           type: Product
+      - name: button_text
+        type: string
+        example: "Add to Favourites"
 
   info-card:
     title: "Info card"

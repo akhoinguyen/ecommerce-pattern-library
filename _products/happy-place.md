@@ -1,5 +1,5 @@
 ---
-name: "Happy Place"
+title: "Happy Place"
 artist: "Marco Polo-Roid"
 description: |
   Reading is important. So is walking through the entrance of the reading room. So is stopping to snap a photo beforehand.

@@ -2,9 +2,11 @@
 layout: default
 ---
 <div class="pad-b-2 push-2"></div>
-<div class="wrapper-75 push-2">
+<div id="main" class="wrapper-75 push-2">
 
-<div class="push-2 center-text">{% pattern navigations/breadcrumb-nav %}</div>
+  <div class="push-2 center-text">
+    {% pattern navigations/breadcrumb-nav %}
+  </div>
 
-{% pattern sections/product-details title=page.title description=page.description image=page.image artist=page.artist price-reg=page.price-reg price=page.price %}
+  {% pattern sections/product-details title=page.title description=page.description image=page.image artist=page.artist price-reg=page.price-reg price=page.price %}
 </div>

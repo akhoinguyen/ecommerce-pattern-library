@@ -40,7 +40,7 @@
   <div class="unit xs-1 s-1 m-1-2 l-2-5 gutter-2 pad-t">
     <div class="">
       <h3 style="font-family: var(--font-primary);" class="push-1-4">{{include.title}}</h3>
-      <div class="push">{% pattern links/seller name=include.artist image="jeanne.jpg" %}</div>
+      {% if include.page.artist %}<div class="push">{% pattern links/seller name=include.artist image="jeanne.jpg" %}</div>{% endif %}
       <p class="push-2">{{include.description}}</p>
       <ul class="push milli">
         <li class="push-1-4">Ultra-high-quality prints on premium materials</li>

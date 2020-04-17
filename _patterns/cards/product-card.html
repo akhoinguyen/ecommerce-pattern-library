@@ -12,12 +12,12 @@
 
   <div class="gutter">
     <h3 class="push-1-4 truncate" style="font-family: var(--font-primary);">{{include.data.title}}</h3>
-    <p class="push">{% pattern links/seller name=include.data.artist image="jeanne.jpg" %}</p>
-    <p class="fw-600">{% if include.data.price-reg %} <del class="gutter-1-2" style="padding-left: 0;">${{include.data.price-reg}}</del> {% endif %}  ${{include.data.price}} CAD</p>
+    {% if include.data.artist %}<p class="push">{% pattern links/seller name=include.data.artist image="jeanne.jpg" %}</p>{% endif %}
+    {% if include.data.price %}<p class="fw-600">{% if include.data.price-reg %} <del class="gutter-1-2" style="padding-left: 0;">${{include.data.price-reg}}</del> {% endif %}  ${{include.data.price}} CAD</p>{% endif %}
     <!--<ul class="list-group milli">
       <li>custom sizes available</li>
       <li>delivers within 5–7 days</li>
     </ul> -->
-    <div>{% pattern buttons/ghost text="Add to favourites" url="#" %}</div>
+    <div>{% pattern buttons/ghost text=include.button_text url="#" %}</div>
   </div>
 </div>

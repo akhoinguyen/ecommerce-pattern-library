@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="push-2">
+  {% pattern banners/banner-fly-in button_url="#" button_text="Shop now" heading="Order in large quantities and get our huge discount!" text="Get up to 25% discount when order large quantities" image="home.jpg" %}
+</div>
+
+<div class="wrapper-75">
+<div class="grid">
+{% for product-promo in site.promo limit:2 %}
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+    {% pattern cards/product-card button_text="More Info" data=product-promo %}
+  </div>
+{% endfor %}
+</div>
+</div>
