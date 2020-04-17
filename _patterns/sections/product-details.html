@@ -1,14 +1,12 @@
 <!-- set up: grid within grid within grid -->
-<div class="grid grid-top wrapper-60 white-bg pad-b-2 relative">
-
-  <div class="pin-rt island-1-2" style="z-index: 20;">{% pattern links/close %}</div>
+<div class="grid grid-top white-bg pad-b-2 relative">
 
   <div class="unit xs-1 s-1 m-1-2 l-3-5">
     <div class="grid">
 
       <div class="unit xs-1 l-4-5 unit-push-l-1-5 l-content-distribute">
         <div class=" embed embed-1by1">
-          <img class="embed-item" src="/images/pastel.jpg" alt="">
+          <img class="embed-item" src="/images/{{include.image}}" alt="">
         </div>
       </div>
 
@@ -17,19 +15,19 @@
 
           <div class="unit xs-1 s-1 m-1-3 l-1">
             <i class="icon i-64">
-              <img class="img-flex" src="/images/pastel.jpg" alt="">
+              <img class="img-flex" src="/images/thumbnail-1.jpg" alt="">
             </i>
           </div>
 
           <div class="unit xs-1 s-1 m-1-3 l-1">
             <i class="icon i-64">
-              <img class="img-flex" src="/images/pastel.jpg" alt="">
+              <img class="img-flex" src="/images/thumbnail-2.jpg" alt="">
             </i>
           </div>
 
           <div class="unit xs-1 s-1 m-1-3 l-1">
             <i class="icon i-64">
-              <img class="img-flex" src="/images/pastel.jpg" alt="">
+              <img class="img-flex" src="/images/thumbnail-3.jpg" alt="">
             </i>
           </div>
 
@@ -41,22 +39,24 @@
 
   <div class="unit xs-1 s-1 m-1-2 l-2-5 gutter-2 pad-t">
     <div class="">
-      <h3 style="font-family: var(--font-primary);" class="push-1-4">La Muralla Roja</h3>
-      <div class="push">{% pattern links/seller name="Jeanne d'Art" image="jeanne.jpg" %}</div>
-      <p class="push">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat tellus et lorem pulvinar, a vulputate quam lacinia.</p>
-      <ul class="list-group push">
-        <li>foo</li>
-        <li>bar</li>
-        <li>foo</li>
+      <h3 style="font-family: var(--font-primary);" class="push-1-4">{{include.title}}</h3>
+      <div class="push">{% pattern links/seller name=include.artist image="jeanne.jpg" %}</div>
+      <p class="push-2">{{include.description}}</p>
+      <ul class="push milli">
+        <li class="push-1-4">Ultra-high-quality prints on premium materials</li>
+        <li class="push-1-4">Industry-grade inks and premium coating to preserve best colours</li>
+        <li class="push-1-4">Comes inside a wooden frame with hangers and tempered glass cover.</li>
       </ul>
-      <p class="pad-t-1-2 pad-b-1-2 fw-600">$ 48.0 CAD</p>
+      <p class="pad-t-1-2 pad-b-1-2 fw-600">{% if include.price-reg %} <del class="gutter-1-2" style="padding-left: 0;">${{include.price-reg}}</del> {% endif %}  ${{include.price}} CAD</p>
     </div>
 
     <div class="push-2">
-      <h4 class="kilo fw-600 push-0" style="font-family: var(--font-primary);">Canvas</h4>
-      <div class="milli push">{% pattern form/select %}</div>
-      <h4 class="kilo fw-600 push-0" style="font-family: var(--font-primary);">Quantity</h4>
-      <div class="milli ">{% pattern form/select %}</div>
+      <h4 class="kilo fw-600 push-0" style="font-family: var(--font-primary);">Finish</h4>
+      <div class="milli push">{% pattern form/select option-1="glossy" option-2="matte" option-3="cotton canvas" %}</div>
+      <h4 class="kilo fw-600 push-0" style="font-family: var(--font-primary);">Frame</h4>
+      <div class="milli push">{% pattern form/select option-1="black" option-2="white" option-3="natural" %}</div>
+      <h4 class="kilo fw-600 push-0" style="font-family: var(--font-primary);">Size</h4>
+      <div class="milli push">{% pattern form/select option-1="S - 6&quot; x 8&quot;" option-2="M - 9&quot; x 12&quot;" option-3="L - 12&quot; x 16&quot;" %}</div>
     </div>
 
     <div class="center-text">{% pattern buttons/basic text="Add to cart" url="#" %}</div>

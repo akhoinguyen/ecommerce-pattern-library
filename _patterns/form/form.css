@@ -26,12 +26,18 @@ input:focus, textarea:focus, select:focus {
 /* radio */
 
 input[type="radio"] + label::before {
-width: 1.5em;
-height: 1.5em;
-border: 1px solid var(--color-neutral-black);
+  width: 1.5em;
+  height: 1.5em;
+  border: 1px solid var(--color-neutral-black);
 }
 
-input[type="radio"]:checked +label::before {
+input[type="checkbox"] + label::before {
+  width: 2em;
+  height: 2em;
+  border: 1px solid var(--color-neutral-black);
+}
+
+input[type="radio"]:checked +label::before, input[type="checkbox"]:checked +label::before {
   background-color: var(--color-secondary);
 }
 

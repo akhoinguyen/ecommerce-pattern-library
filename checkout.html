@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<div class="wrapper-60 pad-t-2 pad-b push-2" style="background-color: var(--color-accent-orange);">
+  <div class="max-length-45 gutter">
+
+    <div class="push-2">
+      <h2 class="push-0">Personal Information</h2>
+      {% pattern form/personal %}
+    </div>
+
+    <div class="push-2">
+      <h2 class="push-0">Contact Information</h2>
+      {% pattern form/contact %}
+    </div>
+
+    <div class="push">
+      <h2 class="push-0">Payments</h2>
+      {% pattern form/payment %}
+    </div>
+
+  </div>
+</div>
+
+<div class="pad-b-2"></div>
+
+<div class="center-text push-2"><h1 class="zetta">Order Summary</h1></div>
+
+<div class="pad-b-2"></div>
+
+<div class="wrapper-60 gutter push-2">
+  {% pattern sections/item-summary %}
+</div>
+
+<div class="max-length-45 gutter pad-b-2 push-2">
+
+  <div class="push-2">
+    <h2 class="push-0">Shipping</h2>
+    {% pattern form/shipping %}
+  </div>
+
+  <div class="pad-b-2"></div>
+
+
+  <div class="push-2">{% pattern form/agree %}</div>
+
+  <div class="pad-b-2"></div>
+
+  <div class="center-text"><button class="btn" type="submit">Place Order</button></div>
+</div>

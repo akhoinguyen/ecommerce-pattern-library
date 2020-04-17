@@ -23,6 +23,25 @@ patterns:
     description: |
       It's a product details card that appears when a user clicks on a product card in the product listing.
     background: --color-primary
+    fields:
+      - name: title
+        type: string
+        example: "La Muralla Roja"
+      - name: description
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat tellus et lorem pulvinar, a vulputate quam lacinia."
+      - name: image
+        type: string
+        example: "pastel.jpg"
+      - name: artist
+        type: string
+        example: "Jeanne d'Arts"
+      - name: price-reg
+        type: number
+        example: 60.0
+      - name: price
+        type: number
+        example: 36.0
 
   about:
     title: "About"

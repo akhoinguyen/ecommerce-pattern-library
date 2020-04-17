@@ -41,5 +41,15 @@ patterns:
     title: "Drop-down select"
     description: |
       Drop-down select.
+    fields:
+      - name: option-1
+        type: string
+        example: "one"
+      - name: option-2
+        type: string
+        example: "two"
+      - name: option-3
+        type: string
+        example: "three"
     background: --color-primary
     width: 50em;

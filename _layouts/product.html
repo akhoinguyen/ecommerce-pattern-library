@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
-<h1>{{page.name}}</h1>
-<p>{{page.description}}</p>
-<img src="/images/{{page.image}}" alt="">
+<div class="pad-b-2 push-2"></div>
+<div class="wrapper-75 push-2">
+
+<div class="push-2 center-text">{% pattern navigations/breadcrumb-nav %}</div>
+
+{% pattern sections/product-details title=page.title description=page.description image=page.image artist=page.artist price-reg=page.price-reg price=page.price %}
+</div>

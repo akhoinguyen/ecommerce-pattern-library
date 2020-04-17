@@ -42,6 +42,14 @@ mark {
   background-color: var(--color-secondary);
 }
 
+table {
+  font-family: var(--font-primary);
+}
+
+td {
+  border-width: 0;
+}
+
 /* @utility width: 75% (custom based on Modulifier) */
 .w-3-4 {
   width: 75%;
@@ -57,10 +65,10 @@ mark {
   background-color: var(--color-neutral-white);
 }
 
-/* @utility apply a white background with 50% opacity (opacity can be overwritten by css) */
-.white-bg-50opa {
+/* @utility apply a white background with 90% opacity (opacity can be overwritten by css) */
+.white-bg-90opa {
+  --color-neutral-white: rgba(255, 255, 255, .9);
   background-color: var(--color-neutral-white);
-  opacity: 50%;
 }
 
 /* @utility font-weight: 600 */
