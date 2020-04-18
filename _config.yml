@@ -26,6 +26,10 @@ patternbot:
   layouts:
     default: |
       The default layout should be used for almost every page, it includes the website's primary header and footer.
+    product: |
+      This layout is used for every product details page. Includes main header and footer, a breadcrumb nav, NO banner and a product details pattern pre-coded from the library.
+    product-promo: |
+      Very similar to product layout however much simpler. Used for 2 main cards in promo page.
 
 collections:
   products:
